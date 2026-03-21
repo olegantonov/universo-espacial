@@ -312,7 +312,7 @@ export default function Registration() {
                     <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                   ) : (
                     <>
-                      Enviar Solicitação
+                      Agendar Visita Escolar
                       <Rocket className="w-5 h-5" />
                     </>
                   )}

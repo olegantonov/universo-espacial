@@ -140,7 +140,7 @@ export default function Landing() {
               viewport={{ once: true }}
               className="relative"
             >
-              <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-widest mb-6 text-center lg:text-left">Imagens de referências</h3>
+              <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-widest mb-6 text-center lg:text-left">Imagens de referência</h3>
               <ImageCarousel />
             </motion.div>
           </div>
