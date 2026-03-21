@@ -23,7 +23,6 @@ export default function Footer() {
               <li><a href="https://hardware.org.br/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Instituto Hardware BR</a></li>
               <li><a href="https://www.gov.br/aeb/pt-br/acesso-a-informacao/institucional/aeb" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Agência Espacial Brasileira (AEB)</a></li>
               <li><a href="https://www.gov.br/mcti/pt-br" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ministério da Ciência, Tecnologia e Inovação</a></li>
-              <li><a href="https://www.gov.br/pt-br" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Governo Federal</a></li>
             </ul>
           </div>
           

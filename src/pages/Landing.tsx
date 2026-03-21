@@ -238,9 +238,6 @@ export default function Landing() {
                 <a href="https://www.gov.br/mcti/pt-br" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Ministério da Ciência, Tecnologia e Inovação">
                   <img src="/logo3.png" alt="Ministério da Ciência, Tecnologia e Inovação" className="w-full h-full object-contain" />
                 </a>
-                <a href="https://www.gov.br/pt-br" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Governo Federal">
-                  <img src="/logo4.png" alt="Governo Federal" className="w-full h-full object-contain" />
-                </a>
               </div>
             </div>
 
