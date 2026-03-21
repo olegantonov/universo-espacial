@@ -254,11 +254,19 @@ export default function Registration() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-slate-300 mb-2">Telefone para contato direto *</label>
-                    <input 
-                      type="tel"
-                      {...register("teacherPhone", { required: "Campo obrigatório" })}
-                      className="w-full bg-[#0a0a1f] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#00d2ff]/50 focus:border-[#00d2ff] transition-all"
-                      placeholder="(61) 90000-0000"
+                    <Controller
+                      name="teacherPhone"
+                      control={control}
+                      rules={{ required: "Campo obrigatório" }}
+                      render={({ field }) => (
+                        <IMaskInput
+                          {...field}
+                          mask="(00) 00000-0000"
+                          className="w-full bg-[#0a0a1f] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#00d2ff]/50 focus:border-[#00d2ff] transition-all"
+                          placeholder="(61) 90000-0000"
+                          onAccept={(value) => field.onChange(value)}
+                        />
+                      )}
                     />
                     {errors.teacherPhone && <p className="text-red-400 text-sm mt-1 flex items-center gap-1"><AlertCircle className="w-4 h-4"/>{errors.teacherPhone.message}</p>}
                   </div>
@@ -277,11 +285,19 @@ export default function Registration() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-slate-300 mb-2">Telefone para contato direto *</label>
-                    <input 
-                      type="tel"
-                      {...register("coordinatorPhone", { required: "Campo obrigatório" })}
-                      className="w-full bg-[#0a0a1f] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#00d2ff]/50 focus:border-[#00d2ff] transition-all"
-                      placeholder="(61) 90000-0000"
+                    <Controller
+                      name="coordinatorPhone"
+                      control={control}
+                      rules={{ required: "Campo obrigatório" }}
+                      render={({ field }) => (
+                        <IMaskInput
+                          {...field}
+                          mask="(00) 00000-0000"
+                          className="w-full bg-[#0a0a1f] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#00d2ff]/50 focus:border-[#00d2ff] transition-all"
+                          placeholder="(61) 90000-0000"
+                          onAccept={(value) => field.onChange(value)}
+                        />
+                      )}
                     />
                     {errors.coordinatorPhone && <p className="text-red-400 text-sm mt-1 flex items-center gap-1"><AlertCircle className="w-4 h-4"/>{errors.coordinatorPhone.message}</p>}
                   </div>
