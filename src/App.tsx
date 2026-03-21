@@ -11,7 +11,7 @@ import Registration from './pages/Registration';
 
 export default function App() {
   return (
-    <Router basename="/universo-espacial">
+    <Router>
       <div className="min-h-screen flex flex-col relative">
         <div className="absolute inset-0 stars-bg pointer-events-none opacity-50"></div>
         <Navbar />
