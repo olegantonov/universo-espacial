@@ -4,43 +4,43 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
   {
-    url: "https://drive.google.com/uc?id=1ggtWAooPFUJsBSrLWiZjX0ARRB5_21pH",
+    url: "/aeb/20260313_083719.jpg",
     alt: "Oficinas práticas da AEB Escola - Estudantes aprendendo"
   },
   {
-    url: "https://drive.google.com/uc?id=1M4LyZeVZh-VbPrh_tRni9HFlb2dkozsG",
+    url: "/aeb/20260313_083720.jpg",
     alt: "Atividades de montagem e robótica aeroespacial"
   },
   {
-    url: "https://drive.google.com/uc?id=18h_21Y9cCMBkNk6wNenuai8LOgrgOH9Z",
+    url: "/aeb/20260313_083722.jpg",
     alt: "Engajamento dos jovens nas atividades educativas"
   },
   {
-    url: "https://drive.google.com/uc?id=1LFJkpc0Fji8o0KwpgMuTBrVRLeixEBR1",
+    url: "/aeb/20260313_083729.jpg",
     alt: "Projetos de exploração espacial criados pelos alunos"
   },
   {
-    url: "https://drive.google.com/uc?id=1y2F0j6DEdXs1or1Z3EMxZ3GPgd0kWkln",
+    url: "/aeb/20260313_083741.jpg",
     alt: "Palestras e apresentações interativas da AEB"
   },
   {
-    url: "https://drive.google.com/uc?id=1hux-TIJhFZNfj_tzXY1vYmTFq6KsxRvG",
+    url: "/aeb/20260313_083743.jpg",
     alt: "Maquetes e demonstrações tecnológicas"
   },
   {
-    url: "https://drive.google.com/uc?id=1dSf3PIj-YBYBlBg_MrsxoyTA86scUm_t",
+    url: "/aeb/20260313_083750.jpg",
     alt: "Oficina de foguetes de garrafa PET"
   },
   {
-    url: "https://drive.google.com/uc?id=1bFItnBZuNERdkM41s7vpWeMASLYgPkTX",
+    url: "/aeb/20260313_083801.jpg",
     alt: "Jovens se inspirando no Programa Espacial Brasileiro"
   },
   {
-    url: "https://drive.google.com/uc?id=1zu4QztpzWe7cn5Th0dqIlOHk4QCBRPF0",
+    url: "/aeb/20260313_083809.jpg",
     alt: "Momento de descoberta na mostra"
   },
   {
-    url: "https://drive.google.com/uc?id=1sxndn3eUVy9dJxlEKGZrbd9lHi2pMh41",
+    url: "/aeb/20260313_083825.jpg",
     alt: "O futuro da exploração espacial"
   }
 ];
@@ -77,9 +77,6 @@ export default function AebCarousel() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-20"></div>
       
       <div className="absolute bottom-6 left-6 right-6 z-30 flex items-end justify-between">
-        <p className="text-white font-medium text-lg drop-shadow-md bg-black/30 px-4 py-2 rounded-xl backdrop-blur-sm">
-          {images[currentIndex].alt}
-        </p>
         
         <div className="flex gap-2">
           <button 

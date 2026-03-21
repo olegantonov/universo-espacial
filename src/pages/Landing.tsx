@@ -229,15 +229,18 @@ export default function Landing() {
               <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-widest text-center mb-8">Realização</h3>
               <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
                 {/* Logos for Realization */}
-                <div className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3">
-                  <img src="/logo1.png" alt="Realização 1" className="w-full h-full object-contain" />
-                </div>
-                <div className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3">
-                  <img src="/logo2.png" alt="Realização 2" className="w-full h-full object-contain" />
-                </div>
-                <div className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3">
-                  <img src="/logo3.png" alt="Realização 3" className="w-full h-full object-contain" />
-                </div>
+                <a href="https://hardware.org.br/" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Instituto Hardware BR">
+                  <img src="/logo1.png" alt="Instituto Hardware BR" className="w-full h-full object-contain" />
+                </a>
+                <a href="https://www.gov.br/aeb/pt-br/acesso-a-informacao/institucional/aeb" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Agência Espacial Brasileira (AEB)">
+                  <img src="/logo2.png" alt="Agência Espacial Brasileira (AEB)" className="w-full h-full object-contain" />
+                </a>
+                <a href="https://www.gov.br/mcti/pt-br" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Ministério da Ciência, Tecnologia e Inovação">
+                  <img src="/logo3.png" alt="Ministério da Ciência, Tecnologia e Inovação" className="w-full h-full object-contain" />
+                </a>
+                <a href="https://www.gov.br/pt-br" target="_blank" rel="noopener noreferrer" className="w-56 h-28 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Governo Federal">
+                  <img src="/logo4.png" alt="Governo Federal" className="w-full h-full object-contain" />
+                </a>
               </div>
             </div>
 
@@ -246,12 +249,12 @@ export default function Landing() {
               <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-widest text-center mb-8">Apoio Institucional</h3>
               <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12">
                 {/* Logos for Supporters */}
-                <div className="w-48 h-24 bg-white/5 rounded-lg border border-white/10 flex items-center justify-center grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3">
-                  <img src="/apoio1.png" alt="Apoio 1" className="w-full h-full object-contain" />
-                </div>
-                <div className="w-48 h-24 bg-white/5 rounded-lg border border-white/10 flex items-center justify-center grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3">
-                  <img src="/apoio2.png" alt="Apoio 2" className="w-full h-full object-contain" />
-                </div>
+                <a href="https://brasiliashopping.com.br/" target="_blank" rel="noopener noreferrer" className="w-48 h-24 bg-white/5 rounded-lg border border-white/10 flex items-center justify-center grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Brasília Shopping">
+                  <img src="/apoio1.png" alt="Brasília Shopping" className="w-full h-full object-contain" />
+                </a>
+                <a href="https://www.educacao.df.gov.br/" target="_blank" rel="noopener noreferrer" className="w-48 h-24 bg-white/5 rounded-lg border border-white/10 flex items-center justify-center grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer overflow-hidden p-3" title="Secretaria de Educação do GDF">
+                  <img src="/apoio2.png" alt="Secretaria de Educação do GDF" className="w-full h-full object-contain" />
+                </a>
               </div>
             </div>
           </div>

@@ -20,18 +20,18 @@ export default function Footer() {
           <div>
             <h3 className="font-display font-semibold text-white mb-4">Realização</h3>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>Instituto Hardware BR</li>
-              <li>Agência Espacial Brasileira (AEB)</li>
-              <li>Ministério da Ciência, Tecnologia e Inovação</li>
-              <li>Governo Federal</li>
+              <li><a href="https://hardware.org.br/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Instituto Hardware BR</a></li>
+              <li><a href="https://www.gov.br/aeb/pt-br/acesso-a-informacao/institucional/aeb" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Agência Espacial Brasileira (AEB)</a></li>
+              <li><a href="https://www.gov.br/mcti/pt-br" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ministério da Ciência, Tecnologia e Inovação</a></li>
+              <li><a href="https://www.gov.br/pt-br" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Governo Federal</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-display font-semibold text-white mb-4">Apoio</h3>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>Brasília Shopping</li>
-              <li>Secretaria de Educação do GDF</li>
+              <li><a href="https://brasiliashopping.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Brasília Shopping</a></li>
+              <li><a href="https://www.educacao.df.gov.br/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Secretaria de Educação do GDF</a></li>
             </ul>
           </div>
         </div>
