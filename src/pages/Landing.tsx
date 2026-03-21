@@ -12,9 +12,9 @@ export default function Landing() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#050510] z-10"></div>
           <img 
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" 
-            alt="Space Background" 
-            className="w-full h-full object-cover opacity-30"
+            src="https://live.staticflickr.com/65535/52666492187_0f58d0fa35_b.jpg" 
+            alt="Astronauta Marcos Pontes" 
+            className="w-full h-full object-cover opacity-40 object-top"
             referrerPolicy="no-referrer"
           />
         </div>
@@ -26,15 +26,23 @@ export default function Landing() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
+            <div className="flex justify-center mb-6">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Miss%C3%A3o_Centen%C3%A1rio_%28insignia%29.png" 
+                alt="Logo Missão Centenário" 
+                className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,210,255,0.3)]"
+              />
+            </div>
+
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-[#00d2ff] text-sm font-medium mb-8">
               <Star className="w-4 h-4" />
               <span>24 de março a 12 de abril de 2026</span>
             </div>
             
-            <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
-              Missão Centenário <br />
+            <h1 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+              A capital federal recebe a exposição imersiva <br className="hidden md:block"/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00d2ff] to-blue-600">
-                20 Anos
+                Missão Centenário 20 Anos
               </span>
             </h1>
             
