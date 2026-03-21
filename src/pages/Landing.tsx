@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Clock, Rocket, Star, Users, Microscope, Info } from 'lucide-react';
 import ImageCarousel from '../components/ImageCarousel';
+import AebCarousel from '../components/AebCarousel';
 
 export default function Landing() {
   return (
@@ -178,6 +179,15 @@ export default function Landing() {
               <p className="text-slate-400">"É uma excelente oportunidade para o público geral conhecer mais sobre a jornada espacial brasileira e a dedicação por trás de cada conquista no cosmos."</p>
             </div>
           </div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-16"
+          >
+            <AebCarousel />
+          </motion.div>
 
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
