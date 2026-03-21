@@ -4,36 +4,48 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
   {
-    url: "/carrossel1.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54930407033_4607074ced_b.jpg",
+    alt: "Astronauta Marcos Pontes em trajes oficiais da Missão Centenário"
   },
   {
-    url: "/carrossel2.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54930202891_e864a43e0e_b.jpg",
+    alt: "Equipe em treinamento na Cidade das Estrelas"
   },
   {
-    url: "/carrossel3.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54930413443_ff3ee02df6_b.jpg",
+    alt: "Preparativos finais antes do lançamento da Soyuz TMA-8"
   },
   {
-    url: "/carrossel4.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54930416968_987582d8c6_b.jpg",
+    alt: "Detalhes dos experimentos científicos realizados no espaço"
   },
   {
-    url: "/carrossel5.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54929342942_f1e4848745_b.jpg",
+    alt: "Marcos Pontes com a bandeira do Brasil na Estação Espacial Internacional"
   },
   {
-    url: "/carrossel6.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54929343952_0cb429680f_b.jpg",
+    alt: "Comemoração histórica dos 20 anos da Missão"
   },
   {
-    url: "/carrossel7.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54929346332_dfb867edd0_b.jpg",
+    alt: "Trajes e equipamentos da exploração espacial"
   },
   {
-    url: "/carrossel8.png",
-    alt: "IMAGENS DE REFERÊNCIAS"
+    url: "https://live.staticflickr.com/65535/54930526220_d817f20f36_b.jpg",
+    alt: "Marcos Pontes assinando documentos pré-voo"
+  },
+  {
+    url: "https://live.staticflickr.com/65535/54930527890_2c5228ab27_b.jpg",
+    alt: "Lançamento do foguete Soyuz na base de Baikonur"
+  },
+  {
+    url: "https://live.staticflickr.com/65535/54930451329_3fca54748d_b.jpg",
+    alt: "Momentos marcantes da Missão Centenário"
+  },
+  {
+    url: "https://live.staticflickr.com/65535/54930457854_9fdeb954e2_b.jpg",
+    alt: "Registro da gravidade zero a bordo da ISS"
   }
 ];
 
