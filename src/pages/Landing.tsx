@@ -42,7 +42,7 @@ export default function Landing() {
             <h1 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
               A capital federal recebe a exposição imersiva <br className="hidden md:block"/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00d2ff] to-blue-600">
-                Missão Centenário 20 Anos
+                Universo Espacial: A Terra é Azul
               </span>
             </h1>
             
