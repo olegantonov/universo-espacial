@@ -47,7 +47,7 @@ export default function Landing() {
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-300 mb-10 leading-relaxed font-light">
-              A capital federal se transforma no epicentro da história espacial brasileira. Uma mostra imersiva que celebra as duas décadas do feito histórico que levou o primeiro brasileiro ao espaço.
+              Brasília se transforma no epicentro da história espacial brasileira. Uma mostra imersiva que celebra as duas décadas do feito histórico que levou o primeiro brasileiro ao espaço.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
